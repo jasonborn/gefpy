@@ -9,7 +9,7 @@
 
 from .gef_to_gem cimport *
 
-cdef class CgefToGem:
+cdef class GefToGem:
     cdef geftogem *c_instance 
 
     def __cinit__(self, strout, strsn, boutexon):

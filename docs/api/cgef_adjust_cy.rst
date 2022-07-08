@@ -3,6 +3,8 @@ gefpy.cgef_adjust_cy
 
 Provides access to the cgef_adjust interface.
 
+.. py:module:: cgef_adjust_cy
+
 .. py:class:: CgefAdjust()
 
     .. py:method:: get_cell_data(self, bgef, cgef)

@@ -3,6 +3,8 @@ gefpy.bgef_writer_cy
 
 Provides access to the bgef_writer interface.
 
+.. py:module:: bgef_writer_cy
+
 .. py:function:: generate_bgef(input_file, bgef_file, stromics="Transcriptomics", n_thread = 8, bin_sizes = None, region = None)
 
     Function to generate common bin GEF file(.bgef).

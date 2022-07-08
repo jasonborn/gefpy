@@ -1,5 +1,9 @@
-gefpy package
+gefpy API
 =============
+
+Import gefpy model as::
+
+   import gefpy.*
 
 .. toctree::
     api/bgef_reader_cy

@@ -61,4 +61,8 @@ todo_include_todos = False
 language = 'en'
 
 html_theme = 'sphinx_rtd_theme'
+html_static_path = ['static']
 
+html_css_files = [
+    'html.css',
+]

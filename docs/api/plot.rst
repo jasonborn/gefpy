@@ -3,7 +3,9 @@ gefpy.plot
 
 Provides convenient drawing methods for other modules.
 
-.. py:method:: save_exp_heat_map(input_gef, output_png, scale=2, dpi=72)
+.. py:module:: plot
+
+.. py:function:: save_exp_heat_map(input_gef, output_png, scale=2, dpi=72)
 
     Save bgef expression to heat map.
 
@@ -12,7 +14,7 @@ Provides convenient drawing methods for other modules.
     :param scale: set the scale, default 2
     :param dpi: set the dpi, default 72
 
-.. py:method:: cgef_stat(input_cgef, figpath)
+.. py:function:: cgef_stat(input_cgef, figpath)
 
     Save cgef stat to png.
 

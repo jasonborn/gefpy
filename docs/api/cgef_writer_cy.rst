@@ -3,7 +3,9 @@ gefpy.cgef_writer_cy
 
 Provides access to the cgef_writer interface.
 
-.. py:method:: generate_cgef(cgef_file, bgef_file, mask_file, block_size: list)
+.. py:module:: cgef_writer_cy
+
+.. py:function:: generate_cgef(cgef_file, bgef_file, mask_file, block_size: list)
 
     Generate cell bin GEF file.
 
